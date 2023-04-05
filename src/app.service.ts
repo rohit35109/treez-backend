@@ -50,7 +50,7 @@ export class AppService {
 
     // Generate 50 random data
     for (let i = 0; i < 50; i++) {
-      const timeIncrement = i * 1000;
+      const timeIncrement = i * 100000000;
       const date = new Date(fixedDate);
       date.setSeconds(date.getSeconds() + timeIncrement / 1000);
 
